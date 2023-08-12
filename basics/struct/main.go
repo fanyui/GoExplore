@@ -9,8 +9,8 @@ type Person struct {
 	Age    int
 	Height float64
 }
-func (c Person) String() string {
-	return  c.Name + " is " + strconv.Itoa(int(c.Age)) + " years old and " + strconv.FormatFloat(c.Height,'E', -1,32) + " feet tall"
+func (p Person) String() string {
+	return  p.Name + " is " + strconv.Itoa(int(p.Age)) + " years old and " + strconv.FormatFloat(p.Height,'E', -1,32) + " feet tall"
 }
 func main()  {
 
