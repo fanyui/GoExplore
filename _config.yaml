@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Go by Example GoExplore
+email: fanyuiharisu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Go by example is a beginner programming book and document which aims to 
+  give newbees into the Go programming language a great kick start and face pace
+   catchup of the basics of the language.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: fanyui1
+github_username:  fanyui
 
 # Build settings
 # theme: minima
@@ -70,12 +70,12 @@ enable_copy_code_button: true
 
 
 # markup / liquid-based content.
-footer_content: "Copyright &copy; 2024 Harisu Fanyui.
+footer_content: "Copyright &copy; 2017-2020 Harisu Fanyui."
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
+gh_edit_repository: "https://github.com/fanyui/GoExplore" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
