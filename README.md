@@ -152,52 +152,6 @@ Go has a total of 25 keywords of which are listed below.
 ### Identifiers
 Identifiers are used to identify variables, functions, and other entities in Golang. Identifiers can be made up of letters, numbers, and underscores. Identifiers must start with a letter or underscore
 
-# Literals
-Literals are constants that have a specific value. Golang has literals for the following types:
-```go
-package main
-
-import "fmt"
-
-// Constants identifier MaxRetries
-const MaxRetries = 3
-
-// Struct Data Type GithubUser
-type GithubUser struct {
-	Login       string `json:"login"`
-	Name        string `json:"name"`
-	PublicRepos int    `json:"public_repos"`
-}
-
-// Package-Private Variable identifier _internalVariable
-var _internalVariable int
-
-// Exported Function idenfier CalculateSum
-func CalculateSum(a, b int) int {
-	return a + b
-}
-
-func main() {
-	// Local Variable identifier count
-	count := 10
-
-	// printing Using the identifers
-	fmt.Println("Count:", count)
-	fmt.Println("Max Retries:", MaxRetries)
-
-	// Using the GithubUser Struct Type as for idenfier person
-	person := GithubUser{Login: "John", Name: "Doe", PublicRepos: 7}
-	fmt.Println("Person:", person)
-}
-
-```
-
-In the example program above, the idenfiers are `MaxRetries`, `GithubUser`, `_internalVariable` `CalculateSum`, `count`, Notice that these all follow the rules for identifiers which are 
-> - Identifiers must start with a letter (a-z, A-Z) or an underscore _.
-> - After the initial character, an identifier may contain letters, digits, or underscores.
-> - Identifiers are case-sensitive.
-> - Identifiers cannot be the same as Go keywords.
-
 ### Literals
 Literals are constants that have a specific value. Golang has literals for the following types:
 - Integers: Integer literals can be written in decimal, octal, or hexadecimal format.
@@ -356,6 +310,7 @@ a : = 5            // a == 5
 var b = 15         // b == 15 
 c, d := 4, 8       // c == 4 and d == 8 
 ```
+
 ###  Comments
 Comments are used to provide information about your code. Comments are not executed by the Golang compiler.: As you will have seen right up to now we have been heavily making use of comments. Comments are usually of two forms
 - Line comments start with the character sequence // and stop at the end of the line. 
@@ -1159,6 +1114,7 @@ Whenever we create functions for which we have as a possible outcome to be an er
 Handling errors in go is by use of control flow. Also, when errors occur there are usually several ways in which the error can be dealt with. This also usually depends on the operation that was being performed and or the context in which we are operating.
 
 1. ***Propagate the error back to the caller:*** This is usually when the error happens within a function that was called by a parent function the caller function will have to forward back the error to the caller and then terminate.
+
 ```go
 package main
 
