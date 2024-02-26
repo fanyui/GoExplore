@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Go by example is a beginner programming book and document which aims to 
   give newbees into the Go programming language a great kick start and face pace
    catchup of the basics of the language.
-baseurl: "/fanyui/GoExplore" # the subpath of your site, e.g. /blog
-url: "https://github.com" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/fanyui/GoExplore" # the subpath of your site, e.g. /blog
+url: "https://fanyui.github.io/GoExplore" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fanyui1
 github_username:  fanyui
 
