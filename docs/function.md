@@ -38,7 +38,7 @@ To invoke, call a function, you use the function name followed by the arguments.
 z := add(10, 20)
 ```
 Here is another function with no paramater list and no return list 
-```
+```go
 func sayHello() {
     fmt.Println("Hello, world!")
 }
