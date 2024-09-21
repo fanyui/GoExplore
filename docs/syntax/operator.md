@@ -13,6 +13,7 @@ parent: Syntax
 
 Operators are used to perform operations on values. Golang has operators for the following operations:
 - Arithmetic operations: Addition, subtraction, multiplication, division, and modulus.
+
 ```
 +    sum                    integers, floats, complex values, strings
 -    difference             integers, floats, complex values
@@ -22,6 +23,7 @@ Operators are used to perform operations on values. Golang has operators for the
 ```
 
 - Comparison operations: Equal to, not equal to, less than, less than or equal to, greater than, and greater than or equal to.
+
 ```go
 ==    equal
 !=    not equal
@@ -39,7 +41,8 @@ Operators are used to perform operations on values. Golang has operators for the
 !     NOT                !p      is  "not p"
 ```
 - Assignment operations: Assignment, addition assignment, subtraction assignment, multiplication assignment, division assignment, and modulus assignment.
-```
+
+```go
 const a = 2 + 3.0          // a == 5.0   (untyped floating-point constant)
 const b = 15 / 4           // b == 3     (untyped integer constant)
 const c = 15 / 4.0         // c == 3.75  (untyped floating-point constant)
@@ -48,7 +51,6 @@ const n float64 = 3/2.     // Π == 1.5   (type float64, 3/2. is float division)
 person := GithubUser{Login: "John", Name: "Doe", PublicRepos: 7}
 person.Name = "Bob"         // struct field
 
-
 ```
 
 - Binary Operator: 
@@ -56,5 +58,3 @@ person.Name = "Bob"         // struct field
 ```go
 * / % << >> & &^
 ```
-
-
