@@ -8,10 +8,12 @@ nav_order: 5
 
 
 ## Variable
- They are named memory locations that can hold values. Variables are declared using the var keyword, followed by the variable name and the data type. Variables are used to store data in Golang. They can be used to store any type of data, including numbers, strings, and objects, etc. Variables are a fundamental part of Golang programming, and they are used in almost every piece of code. We have already made use of variables in most of the sections above but we will dive deeper into it here. 
+They are named memory locations that can hold values. Variables are declared using the var keyword, followed by the variable name and the data type. Variables are used to store data in Golang. They can be used to store any type of data, including numbers, strings, and objects, etc. Variables are a fundamental part of Golang programming, and they are used in almost every piece of code. We have already made use of variables in most of the sections above but we will dive deeper into it here. 
 
->***Note***: Identifiers and variables are related concepts but serve different purposes in the context of programming. with difference being that
-An identifier is a name given to various program entities, including variables, functions, packages, constants, and types. while A variable is a storage location in the computer's memory that is identified by a name (identifier) and used to store and manipulate data during program execution.
+> ***Note***: Identifiers and variables are related concepts but serve different purposes in the context of programming. with difference being that:
+	
+	An identifier is a name given to various program entities, including variables, functions, packages, constants, and types.
+	While A variable is a storage location in the computer's memory that is identified by a name (identifier) and used to store and manipulate data during program execution.
 
 Just like we explained in the identifire section,
 - Variable names must start with a letter or an underscore.
@@ -23,6 +25,7 @@ Just like we explained in the identifire section,
 ### How to declare variables
 
 Variables are declared using the var keyword, followed by the variable name and the data type. Variable declaration create one or more variables, ties it to the identifier and then gives it a type and an initial value.For example, the following code declares a variable named x of type int:
+
 ```go
 var x int        // variable x of type int
 var A, B float64 // variable A, B of type float
@@ -35,7 +38,7 @@ i := 100         // variable i of type inferred int
 
 Using the examples above you will notice that the long and full annotated version of a variable declaration is typically of the form 
 `var name type = expression`
-however there exist short hand notations eg the third example above `var c = 7 ` 7 is inferred and the last line `i := 100`  declars and assigned 100 to i. In this case the type of i is also inferred from the usage.
+however there exist short hand notations eg the third example above `var c = 7 `  7 is inferred and the last line `i := 100`  declars and assigned 100 to i. In this case the type of i is also inferred from the usage.
 Variable declaration specifies the type a variable can store. 
 Integers can store whole numbers. Floating-point numbers can store numbers with decimal points. Strings can store sequences of characters. Booleans can store values of true or false.
 Once a variable is declared, it therefore means that we can give it a value in otherword we can asign a value to it. We can only assign values of the particular type to the value. hence you cannot assign a floating point number to a variable that was declared as int. 
